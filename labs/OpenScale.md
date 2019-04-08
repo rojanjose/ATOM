@@ -7,13 +7,12 @@ IBM Watson OpenScale is an open environment that enables organizations to automa
 * [IBM Developer Code Patterns for OpenScale](https://developer.ibm.com/?s=openscale&orderby=date&order=DESC&post_type%5B%5D=ibmcode_patterns)
 * [Code Pattern for this lab](https://developer.ibm.com/patterns/monitor-performance-fairness-and-quality-of-a-wml-model-with-ai-openscale-apis/)
 
-
-#### Prerequisites
+## Prerequisites
 
 This lab will guide you through building a Spark ML based model to determine if an applicants credit risk. Some familiarity with Machine Learning will be useful in understanding the model, though not necessary as all the code is provided for you to build the credit risk model. Once the model is built, Watson OpenScale will be used to monitor the models fairness, performance and explain the results of transactions. To run through the lab, you will need:
 * An IBM Cloud ID
 
-#### Instructions
+## Instructions
 
 In order to run the lab, you should go through the following steps to set up the Watson Studio environment where the Machine Learning model will be created.
 
@@ -44,14 +43,14 @@ In order to run the lab, you should go through the following steps to set up the
 
 1. You can now follow the instructions for the code pattern found at the following [git repo](https://github.com/IBM/monitor-wml-model-with-watson-openscale/blob/master/README.md) to complete this lab.
 
-#### Tips and Work Arounds
+### Tips and Work Arounds
 
 Some tips, tricks and work arounds that might be useful while running through the Code Pattern tutorial:
 
 1. The tutorial uses the IBM Cloud CLI to get the OpenScale service guids. If you do not have the CLI installed, you can find the GUID in the browser url. When you open the Watson Open Scale service instance on the IBM Cloud page, you will see in the url a location where the service is deployed followed by two alphanumerics separated by a colon. The service GUID is the second alphanumeric (after the colon and followed by two colons)
    ![wos-url](docs/images/8.png)
 
-#### Call to Action
+## Call to Action
 
 Continue exploring Watson OpenScale and Watson Machine Learning through the following resources:
 * https://github.com/pmservice/ai-openscale-tutorials/tree/master/notebooks
