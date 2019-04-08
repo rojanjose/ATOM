@@ -1,4 +1,4 @@
-### Visual recognition: Facial Age Estimator
+## Visual recognition: Facial Age Estimator
 This hands-on lab will use one of the models from the Model Asset Exchange (MAX), an exchange where developers can find and experiment with open source deep learning models. Specifically, we will be using the Facial Age Estimator to create a web application that will first detect human faces and then output the ages with the bounding boxes of the associated detected faces. The web application provides a user-friendly interface backed by a lightweight python server. The server takes webcam as input via the UI and sends them to a REST end point for the model. The model's REST endpoint is set up using the docker image provided on MAX. The Web UI displays the estimated age with the associated bounding box for each person.
 
 #### Prerequisites: 
@@ -15,3 +15,5 @@ Additional patterns can be found [here](https://developer.ibm.com/code-and-respo
 
 Join the 2019 Call for Code challenge today!
 https://developer.ibm.com/callforcode/
+
+[Top](./)
