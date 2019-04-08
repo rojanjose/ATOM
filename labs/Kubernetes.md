@@ -1,5 +1,5 @@
 ## Kubernetes: "Kubernetes 101" Concepts
-You probably heard a lot about Docker and Kubernetes. They are storming the world and providing a way to write and deploy applications very efficiently. But are you familiar with Kubernetes concepts? In this session, we will explain Kubernetes Pods, ReplicaSets, Deployments, Services, and so on through haands on labs to deploy and scale multi-tier web application.
+You probably heard a lot about Docker and Kubernetes. They are storming the world and providing a way to write and deploy applications very efficiently. But are you familiar with Kubernetes concepts? In this session, we will explain Kubernetes Pods, ReplicaSets, Deployments, Services, and so on through hands on labs to deploy and scale multi-tier web application.
 
 #### Prerequisites: 
 Familiarity with docker and containerization helps however it is not a must.
@@ -9,7 +9,7 @@ Reach out to the instructor to receive the credentials for a pre-provisioned Kub
 Alternatively, you can run the labs on your cluster by provisiong one on the IBM Cloud. Follow this [link](https://ibm.biz/Bd2WCn) to create your free cluster on IBM Cloud account. Select `Kubernetes Service` from the catalog and provision a lite cluster free of cost.
 
 ##### Run locally:
-Install minikube on your laptop and follow the lab instructions.
+Install [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) on your laptop and follow the lab instructions.
 
 #### Instructions: 
 Start with [Lab 1](https://github.com/IBM/kube101/tree/master/workshop/Lab1) to deploy the sample web application. Note: Skip step 0, use following [instructions](./docs/ClusterLogin.md) to login to pre-provisioned clusters.</br>
