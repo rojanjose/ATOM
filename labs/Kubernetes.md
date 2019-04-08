@@ -1,5 +1,5 @@
 ## Kubernetes: "Kubernetes 101" Concepts
-You probably heard a lot about Docker and Kubernetes. They are storming the world and providing a way to write and deploy applications very efficiently. But are you familiar with Kubernetes concepts? In this session, we will explain Kubernetes concepts and go through exercises on how to deploy Pods, ReplicaSets, Deployments, Service, and so on.
+You probably heard a lot about Docker and Kubernetes. They are storming the world and providing a way to write and deploy applications very efficiently. But are you familiar with Kubernetes concepts? In this session, we will explain Kubernetes Pods, ReplicaSets, Deployments, Services, and so on through haands on labs to deploy and scale multi-tier web application.
 
 #### Prerequisites: 
 Familiarity with docker and containerization helps however it is not a must.
@@ -12,9 +12,9 @@ Alternatively, you can run the labs on your cluster by provisiong one on the IBM
 Install minikube on your laptop and follow the lab instructions.
 
 #### Instructions: 
-Start with [Lab 1](https://github.com/IBM/kube101/tree/master/workshop/Lab1). Note: Skip step 0, use following [instructions](./docs/ClusterLogin.md) to login to pre-provisioned clusters.</br>
+Start with [Lab 1](https://github.com/IBM/kube101/tree/master/workshop/Lab1) to deploy the sample web application. Note: Skip step 0, use following [instructions](./docs/ClusterLogin.md) to login to pre-provisioned clusters.</br>
 Follow [Lab 2](https://github.com/IBM/kube101/tree/master/workshop/Lab2) to scale and update the deployments.</br>
-Follow [Lab 3](https://github.com/IBM/kube101/tree/master/workshop/Lab3) to natively update and build multi-tier applications.
+Follow [Lab 3](https://github.com/IBM/kube101/tree/master/workshop/Lab3) to deploy and manage application using Kubernetes configuration files.
 
 #### Call to Action
 Create your Kube cluster across different availability zones to make the application disaster resistent. Try out the following patterns:</br>
