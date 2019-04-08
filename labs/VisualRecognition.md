@@ -42,3 +42,7 @@ Visual recognition based technology can help solve crisis arising from natural d
 https://developer.ibm.com/callforcode/
 
 * Additional patterns can be found [here](https://developer.ibm.com/code-and-response/technologies/).
+
+
+[Top](./)
+
