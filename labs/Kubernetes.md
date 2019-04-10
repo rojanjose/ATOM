@@ -4,7 +4,7 @@ You probably heard a lot about Docker and Kubernetes. They are storming the worl
 #### Prerequisites: 
 Familiarity with docker and containerization helps however it is not a must.
 ##### Run on IBM Cloud:
-Reach out to the instructor to receive the credentials for a pre-provisioned Kubernetes cluster.
+Follow this [link](https://ibm.biz/Bd2WCn) to create your cloud account. Reach out to the instructor to receive the credentials for a pre-provisioned Kubernetes cluster.
 
 Alternatively, you can run the labs on your cluster by provisiong one on the IBM Cloud. Follow this [link](https://ibm.biz/Bd2WCn) to create your free cluster on IBM Cloud account. Select `Kubernetes Service` from the catalog and provision a lite cluster free of cost.
 
@@ -12,7 +12,7 @@ Alternatively, you can run the labs on your cluster by provisiong one on the IBM
 Install [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) on your laptop and follow the lab instructions.
 
 #### Instructions: 
-Start with [Lab 1](https://github.com/IBM/kube101/tree/master/workshop/Lab1) to deploy the sample web application. Note: Skip step 0, use following [instructions](./docs/ClusterLogin.md) to login to pre-provisioned clusters.</br>
+Start with [Lab 1](https://github.com/rojanjose/kube101/tree/master/workshop/Lab1) to deploy the sample web application. </br>
 Follow [Lab 2](https://github.com/IBM/kube101/tree/master/workshop/Lab2) to scale and update the deployments.</br>
 Follow [Lab 3](https://github.com/IBM/kube101/tree/master/workshop/Lab3) to deploy and manage application using Kubernetes configuration files.
 
